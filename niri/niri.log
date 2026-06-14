@@ -1,0 +1,13 @@
+[2m2026-05-02T15:04:29.956388Z[0m [32m INFO[0m [2mniri[0m[2m:[0m starting version 26.04 (8ed0da4)
+[2m2026-05-02T15:04:30.001303Z[0m [34mDEBUG[0m [2mniri_config[0m[2m:[0m loaded config from "/home/brent/.config/niri/config.kdl"
+[2m2026-05-02T15:04:30.620208Z[0m [34mDEBUG[0m [2mniri::backend::tty[0m[2m:[0m attempting to use render node from config: "/dev/dri/card0"
+[2m2026-05-02T15:04:30.620395Z[0m [33m WARN[0m [2mniri::backend::tty[0m[2m:[0m DRM node "/dev/dri/card0" is not a render node
+[2m2026-05-02T15:04:30.620526Z[0m [33m WARN[0m [2mniri::backend::tty[0m[2m:[0m could not get render node for DRM node "/dev/dri/card0"; proceeding anyway
+[2m2026-05-02T15:04:30.620616Z[0m [32m INFO[0m [2mniri::backend::tty[0m[2m:[0m using as the render node: "/dev/dri/card0"
+[2m2026-05-02T15:04:31.177713Z[0m [34mDEBUG[0m [2mniri::backend::tty[0m[2m:[0m adding device: 57856 "/dev/dri/card0"
+[2m2026-05-02T15:04:31.177838Z[0m [34mDEBUG[0m [2mniri::backend::tty[0m[2m:[0m this is the primary node
+[2m2026-05-02T15:04:35.570980Z[0m [34mDEBUG[0m [2mniri::backend::tty[0m[2m:[0m failed to initialize renderer, falling back to primary gpu: software EGL renderers are skipped
+[2m2026-05-02T15:04:35.571412Z[0m [33m WARN[0m [2mniri::backend::tty[0m[2m:[0m error adding primary node device, display-only devices may not work: no allocator available for device
+[2m2026-05-02T15:04:35.572303Z[0m [32m INFO[0m [2mniri[0m[2m:[0m listening on Wayland socket: wayland-1
+[2m2026-05-02T15:04:35.572360Z[0m [32m INFO[0m [2mniri[0m[2m:[0m IPC listening on: /run/user/1000/niri.wayland-1.815.sock
+[2m2026-05-02T15:04:35.744436Z[0m [32m INFO[0m [2mniri[0m[2m:[0m listening on X11 socket: :0
